@@ -1,0 +1,43 @@
+.top-stocks {
+  margin-top: 30px;
+}
+
+.top-stocks h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.stock-item {
+  background: #171c2f;
+  border: 1px solid #2d3654;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stock-item h3 {
+  color: white;
+  margin-bottom: 8px;
+}
+
+.stock-item p {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.stock-item button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.stock-item button:hover {
+  background: #1d4ed8;
+}
