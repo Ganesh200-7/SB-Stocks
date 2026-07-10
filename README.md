@@ -115,11 +115,11 @@ npm install
 Create a `.env` file.
 
 ```env
-PORT=5000
+PORT=5001
 
-MONGO_URI=your_mongodb_connection_string
+MONGO_URI=mongodb://127.0.0.1:27017/SBStocks
 
-JWT_SECRET=your_secret_key
+JWT_SECRET=FinVault@123
 ```
 
 Start the backend server.
@@ -147,7 +147,7 @@ http://localhost:5173
 Backend runs on
 
 ```
-http://localhost:5000
+http://localhost:5001
 ```
 
 ---
@@ -171,8 +171,7 @@ MongoDB Atlas is used to store
 - Users
 - Stocks
 - Transactions
-- Portfolio
-- Watchlist
+  
 
 Mongoose is used as the ODM for database operations.
 
