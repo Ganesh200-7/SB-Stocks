@@ -244,20 +244,50 @@ The project was tested using
 
 ---
 
-# 📷 Screenshots
 
-Add screenshots of:
+## 📸 Application Screenshots
 
-- Landing Page
-- Login
-- Register
-- Dashboard
-- Stocks
-- Portfolio
-- Transactions
-- Watchlist
-- Profile
-- Admin Dashboard
+### Landing Page
+![Landing Page](images/Landing.png)
+
+### Login Page
+![Login Page](images/Login.png)
+
+### Register Page
+![Register Page](images/Register.png)
+
+### User Dashboard
+![Dashboard](images/DashBoard.png)
+
+### Stocks Page
+![Stocks](images/Stocks.png)
+
+### Stock Chart
+![Stock Chart](images/StockChart.png)
+
+### Chart Analytics
+![Chart Analytics](images/ChartStock.png)
+
+### Watchlist
+![Watchlist](images/Watchlist.png)
+
+### Transactions
+![Transactions](images/Transactions.png)
+
+### My Profile
+![My Profile](images/myProfile.png)
+
+### Admin Dashboard
+![Admin Dashboard](images/AdminDashBoard.png)
+
+### Admin - All Users
+![All Users](images/AllUsers.png)
+
+### Admin - All Orders
+![All Orders](images/AllOrders.png)
+
+### Admin - Stock Analytics
+![Stock Analytics](images/AdminstockAnalytics.png)
 
 ---
 
