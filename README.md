@@ -243,7 +243,13 @@ The project was tested using
 - Input Validation Testing
 
 ---
+## 🎥 Demo Video
 
+Watch the FinVault project demo here:
+
+[▶️ FinVault Demo](https://drive.google.com/file/d/1WHjXVuPRN9sLFBXBcfgYjUYZl9IzyGlR/view?usp=sharing)
+
+---
 
 ## 📸 Application Screenshots
 
