@@ -20,7 +20,6 @@ function App() {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // 🔥 LOAD USER ON REFRESH (THIS FIXES EVERYTHING)
   useEffect(() => {
     const loadUser = async () => {
       try {

@@ -38,8 +38,6 @@ exports.getAllOrders = async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 };
-
-
 exports.getStockAnalytics = async (req, res) => {
   try {
     const stocks = await Stock.find();

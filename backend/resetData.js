@@ -8,7 +8,6 @@ const resetDatabase = async () => {
   try {
     await connectDB();
 
-    // 🧹 Delete ALL trading history (this fixes portfolio + charts + orders)
     await Transaction.deleteMany({});
 
     console.log("✅ Transactions cleared");

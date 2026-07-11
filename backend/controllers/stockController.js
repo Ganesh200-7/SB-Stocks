@@ -1,6 +1,5 @@
 const Stock = require("../models/stock");
 
-// GET all stocks
 const getAllStocks = async (req, res) => {
   try {
     const stocks = await Stock.find();
@@ -30,7 +29,6 @@ const getStockBySymbol = async (req, res) => {
     });
   }
 };
-// GET single stock
 const getStockById = async (req, res) => {
   try {
     const stock = await Stock.findById(req.params.id);
@@ -45,7 +43,6 @@ const getStockById = async (req, res) => {
   }
 };
 
-// SEARCH stocks
 const searchStocks = async (req, res) => {
   try {
     const keyword = req.query.q;

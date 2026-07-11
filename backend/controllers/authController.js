@@ -2,7 +2,6 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const User = require("../models/User");
 
-// REGISTER
 const registerUser = async (req, res) => {
   try {
     const { name, email, password } = req.body;
@@ -24,7 +23,7 @@ const registerUser = async (req, res) => {
   }
 };
 
-// LOGIN
+
 const loginUser = async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -55,8 +54,6 @@ const loginUser = async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 };
-
-// UPLOAD IMAGE
 const uploadProfileImage = async (req, res) => {
   try {
     const user = await User.findById(req.user._id);
@@ -73,7 +70,6 @@ const uploadProfileImage = async (req, res) => {
   }
 };
 
-// GET LOGGED USER
 const getMe = async (req, res) => {
   const user = await User.findById(req.user._id);
   res.json(user);

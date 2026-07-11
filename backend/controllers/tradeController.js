@@ -2,7 +2,6 @@ const User = require("../models/user");
 const Stock = require("../models/stock");
 const Transaction = require("../models/transaction");
 
-// BUY STOCK
 const buyStock = async (req, res) => {
   try {
 
@@ -86,7 +85,6 @@ const buyStock = async (req, res) => {
   }
 };
 
-// SELL STOCK
 const sellStock = async (req, res) => {
   try {
 

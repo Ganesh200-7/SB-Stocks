@@ -1,6 +1,4 @@
 const Stock = require("../models/stock");
-
-// CREATE STOCK
 exports.createStock = async (req, res) => {
   try {
     const stock = new Stock(req.body);
@@ -11,8 +9,6 @@ exports.createStock = async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 };
-
-// UPDATE STOCK
 exports.updateStock = async (req, res) => {
   try {
     const stock = await Stock.findByIdAndUpdate(
@@ -30,8 +26,6 @@ exports.updateStock = async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 };
-
-// DELETE STOCK
 exports.deleteStock = async (req, res) => {
   try {
     const stock = await Stock.findByIdAndDelete(req.params.id);

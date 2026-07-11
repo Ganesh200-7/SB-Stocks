@@ -4,15 +4,13 @@ const Stock = require("../models/stock");
 
 dotenv.config();
 
-// Generate random price history
 const generatePriceHistory = (basePrice) => {
   const history = [];
   let price = basePrice;
   
   for (let i = 0; i < 30; i++) {
-    // Random daily change between -2% and +2%
     const change = (Math.random() - 0.5) * 0.04 * price;
-    price = Math.max(price + change, basePrice * 0.8); // Prevent going too low
+    price = Math.max(price + change, basePrice * 0.8); 
     history.push(Math.round(price * 100) / 100);
   }
   

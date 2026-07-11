@@ -13,7 +13,7 @@ const resetPortfolio = async () => {
         $set: {
           portfolio: [],
           watchlist: [],
-          balance: 100000, // optional: reset balance
+          balance: 100000, 
         },
       }
     );

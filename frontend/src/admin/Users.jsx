@@ -26,7 +26,6 @@ export default function Users() {
     fetchUsers();
   }, []);
 
-  // ✅ DELETE FUNCTION (ADD THIS)
   const handleDelete = async (id) => {
     try {
       const confirmDelete = window.confirm("Are you sure you want to delete this user?");
@@ -42,8 +41,6 @@ export default function Users() {
           },
         }
       );
-
-      // ✅ remove from UI instantly
       setUsers(users.filter((user) => user._id !== id));
 
     } catch (err) {

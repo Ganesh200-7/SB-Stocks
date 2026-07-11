@@ -35,7 +35,6 @@ const getWatchlist = async (req, res) => {
   }
 };
 
-// Remove from Watchlist
 const removeFromWatchlist = async (req, res) => {
   try {
     const { stockId } = req.params;

@@ -14,13 +14,11 @@ dotenv.config();
 
 const app = express();
 
-// Connect to Database
 connectDB().catch(err => {
   console.error("❌ MongoDB Connection Failed:", err.message);
   process.exit(1);
 });
 
-// Middleware
 app.use(cors());
 app.use(express.json());
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
@@ -41,13 +39,10 @@ console.log("SERVER FILE LOADED");
 app.get("/ping", (req, res) => {
   res.send("pong");
 });
-// Test Route
 app.get("/", (req, res) => {
   res.send("SB Stocks API is Running...");
 });
 
-
-// Start Server
 const PORT = process.env.PORT || 5001;
 
 app.listen(PORT, () => {

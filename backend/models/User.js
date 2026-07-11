@@ -48,7 +48,7 @@ const userSchema = new mongoose.Schema({
     },
   ],
 
-  // ⭐ ADD THIS
+
   watchlist: {
     type: [
       {
