@@ -95,16 +95,6 @@ FinVault
 
 ---
 
-# ⚙️ Installation
-
-## Clone Repository
-
-```bash
-git clone https://github.com/your-username/FinVault.git
-```
-
----
-
 ## Backend Setup
 
 ```bash
