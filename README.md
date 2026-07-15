@@ -1,7 +1,8 @@
-📈 FinVault – Stock Trading Platform
+# 📈 FinVault – Stock Trading Platform
 
-FinVault is a **Full Stack MERN (MongoDB, Express.js, React.js, Node.js)** web application that allows users to experience stock trading in a virtual 
-environment using virtual money.The platform provides a safe and interactive way to learn stock market concepts without financial risk.
+FinVault is a Full Stack MERN (MongoDB, Express.js, React.js, Node.js) web application that allows users to experience stock trading in a virtual environment using virtual money. The platform provides a safe and interactive way to learn stock market concepts without financial risk.
+
+**📌 Note:** The project demo video is available at the **bottom of this README** under the **Demo** section.
 
 ---
 
